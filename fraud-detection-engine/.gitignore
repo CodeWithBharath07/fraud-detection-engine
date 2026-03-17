@@ -1,0 +1,32 @@
+# Java
+target/
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# ML models (large binary files)
+models/
+*.pkl
+
+# Node
+node_modules/
+build/
+
+# Env files
+.env
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
